@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+}
+
+.wordCard {
+  margin: 5px auto;
+  height: 30vh;
+  line-height: 30vh;
+  width: 20vw;
+  border: 2px dashed #f69c55;
+}
+
+.ImageCard {
+  margin: 5px auto;
+  padding: 5px;
+}
+
+.Image {
+  /*width: 500px;*/
+  height: 60vh;
+  background-color: #e0e0e0;
+  object-fit: scale-down;
+  border: 2px dashed #f69c55;
+}
+
+#header-img {
+  height: 150px;
+  background-color: #e0e0e0;
+  object-fit: cover;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
