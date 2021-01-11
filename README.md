@@ -1,7 +1,5 @@
 # Leitner Box; 단어 암기 상자
 
-![npm](https://img.shields.io/npm/v/npm)
-
 ![leitner_box](https://t1.daumcdn.net/cfile/tistory/25680A3F57C058FF27)
 
 이 어플리케이션은 암기카드를 이용한 암기 방법인 **라이트너 암기 상자**를 구현한 어플리케이션 입니다.
