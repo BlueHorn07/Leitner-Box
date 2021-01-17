@@ -39,7 +39,7 @@ router.get("/deleteAll", (req, res) => {
 
 // GET word from specific box
 router.get("/:boxId", (req, res) => {
-  db.query(`SELECT * FROM wordBox WHERE box_id='${req.params.boxId}'`, (err, data) => {
+  db.query(`SELECT * FROM wordBox WHERE box_id='${req.params.boxId}' ORDER BY updateAt`, (err, data) => {
     if (err) throw err;
     if (data.length !== 0) {
       res.send(JSON.stringify(data[0]))
@@ -86,7 +86,7 @@ router.get("/succ/:id", (req, res) => {
 
 // MOVE box to the 1st box
 router.get("/fail/:id", (req, res) => {
-  db.query(`UPDATE wordBox SET box_id='1' WHERE id='${req.params.id}'`, (err, data) => {
+  db.query(`UPDATE wordBox SET box_id=1, updateAt=NOW() WHERE id='${req.params.id}'`, (err, data) => {
     if (err) throw err;
     res.end();
   });
