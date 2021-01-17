@@ -4,9 +4,9 @@
 
 .wordCard {
   margin: 5px auto;
-  height: 30vh;
-  line-height: 30vh;
-  width: 20vw;
+  width: 250px;
+  height: 150px;
+  padding: 50px 50px;
   border: 2px dashed #f69c55;
 }
 
