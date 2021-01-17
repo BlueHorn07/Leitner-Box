@@ -13,14 +13,14 @@
 .ImageCard {
   margin: 5px auto;
   padding: 5px;
+  text-align: center;
+  max-width: 500px;
 }
 
 .Image {
-  /*width: 500px;*/
-  height: 60vh;
   background-color: #e0e0e0;
-  object-fit: scale-down;
   border: 2px dashed #f69c55;
+  max-width: 100%;
 }
 
 #header-img {

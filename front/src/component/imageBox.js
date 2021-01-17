@@ -126,4 +126,5 @@ const btnStyle = {
   borderRadius: ".25rem",
   fontSize: "1rem",
   lineHeight: 1.2,
+  textTransform: 'none',
 }
